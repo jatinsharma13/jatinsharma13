@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<!-- saved from url=(0061)file:///C:/Users/jatin/OneDrive/Desktop/coding/day1/dice.html -->
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+
+<head>
+
+</head>
+<script>
+  
+</script>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<style>
+    .nav {
+        /* display: nav; */
+        /* float: left;  */
+        border: 1px solid black;
+        background-color: aquamarine;
+        margin: 0%;
+        font-size: large;
+        
+
+    } .border {
+        border: 1px solid black;
+        background-image: url('https://www.themealdb.com/images/ingredients/Lime.png');
+    } .container {
+        display: grid;
+        grid-template-columns: repeat(1ft 1ft 1ft);
+        border:1px solid black;
+       
+    } a{
+        margin-left: 2%;
+    }
+</style>
+<body>
+    <!-- https://www.themealdb.com/api.php?ref=apilist.fun -->
+    <div class="border">
+        <div class="nav">
+            <a href="C:\Users\jatin\OneDrive\Desktop\EVA\index.html">Home</a>
+            <a href="">signup</a>
+            <a href="">Login</a>
+            <a href="C:\Users\jatin\OneDrive\Desktop\EVA\menu.html">Menu</a>
+            <!-- ,  and  options -->
+        </div>
+    </div>
+    <div class="container">
+        <h1> your details</h1>
+        <button><a href=""></a></button>
+
+        main
+    </div>
+    <h3></h3>
+    <form action="payment">
+        <label for="cart">card holder name</label>
+        <input type="number">
+        <label for="cart">card number</label>
+        <input type="number">
+        <label for="address">cvv</label>
+        <input type="number">
+        <label for="date">month</label>
+        <input type="number">
+
+
+    </form>
+    <div id="btnbox">
+        <button onclick="click()" id="submit">Place order</></button>
+    </div>
+</body>
+</html>
+<script>
+  function click(){
+      var h3 = document.querySelector('h3')
+      h3.textContent="your order has been placed thank you"
+
+  } setTimeout(click,2000)
+</script>
+

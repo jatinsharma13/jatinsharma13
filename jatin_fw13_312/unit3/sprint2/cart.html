@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+<html lang="en">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Document</title>
+</head>
+<style>
+    </style>
+    <body>
+        <div id="head">
+<h1>CART</h1>
+<button><a href=""></a></button>
+        </div>
+        <div id="checkout btn">
+            <button><a href=""></a></button>
+        </div>
+        <div id="main">
+        <div id="container"></div>
+        <div id = "price"></div>
+    </div>
+    <button><a href="C:\Users\jatin\OneDrive\Desktop\EVA\checkout.html">Place order</a></button>
+    </body>
+    </html>
+    <script>
+        var price = document.getElementById('prices')
+        var count= 0;
+        var cart = localStorage.getItem('cart')
+        cart = JSON.parse(cart)
+        var container = document.getElementById('container')
+        cart.forEach(function(p){
+            count +=Number(p.price)
+            var div = document.createElement('div')
+            var divv = document.createElement('div')
+            var pname = document.createElement('p') 
+            pname.textContent=p.name
+            var pprice = document.createElement('p') 
+            pprice.textContent=p.price
+            var image = document.createElement('img') 
+            image.src = p.image
+            divv.append(image, pname, pprice)
+            div.append(div)
+        })
+        var prices = Math.random(100,500)
+        var pricediv = document.createElement('h3')
+        pricediv.textContent = "Total Price"
+        var bttn = document.createElement('button')
+        bttn.textContent="apply Promo"
+        var totalPrice = document.createElement('div')
+        prices.append(pricediv,totalPrice,label,bttn)
+
+        
+    </script>
